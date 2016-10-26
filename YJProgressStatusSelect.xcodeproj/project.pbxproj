@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		6BF506381DC0A9490031DBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506371DC0A9490031DBAF /* main.m */; };
 		6BF5063B1DC0A9490031DBAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5063A1DC0A9490031DBAF /* AppDelegate.m */; };
-		6BF5063E1DC0A9490031DBAF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF5063D1DC0A9490031DBAF /* RootViewController.m */; };
-		6BF506411DC0A9490031DBAF /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506401DC0A9490031DBAF /* DataViewController.m */; };
-		6BF506441DC0A9490031DBAF /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506431DC0A9490031DBAF /* ModelController.m */; };
 		6BF506471DC0A9490031DBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF506451DC0A9490031DBAF /* Main.storyboard */; };
 		6BF506491DC0A9490031DBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF506481DC0A9490031DBAF /* Assets.xcassets */; };
 		6BF5064C1DC0A9490031DBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF5064A1DC0A9490031DBAF /* LaunchScreen.storyboard */; };
 		6BF506571DC0A94A0031DBAF /* YJProgressStatusSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506561DC0A94A0031DBAF /* YJProgressStatusSelectTests.m */; };
 		6BF506621DC0A94A0031DBAF /* YJProgressStatusSelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506611DC0A94A0031DBAF /* YJProgressStatusSelectUITests.m */; };
+		6BF506751DC0ACB40031DBAF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506741DC0ACB40031DBAF /* MainViewController.m */; };
+		6BF506791DC0ACEC0031DBAF /* BillingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF506781DC0ACEC0031DBAF /* BillingProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,12 +40,6 @@
 		6BF506371DC0A9490031DBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BF506391DC0A9490031DBAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BF5063A1DC0A9490031DBAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BF5063C1DC0A9490031DBAF /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		6BF5063D1DC0A9490031DBAF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		6BF5063F1DC0A9490031DBAF /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
-		6BF506401DC0A9490031DBAF /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
-		6BF506421DC0A9490031DBAF /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
-		6BF506431DC0A9490031DBAF /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
 		6BF506461DC0A9490031DBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BF506481DC0A9490031DBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BF5064B1DC0A9490031DBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +50,10 @@
 		6BF5065D1DC0A94A0031DBAF /* YJProgressStatusSelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJProgressStatusSelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF506611DC0A94A0031DBAF /* YJProgressStatusSelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJProgressStatusSelectUITests.m; sourceTree = "<group>"; };
 		6BF506631DC0A94A0031DBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF506731DC0ACB40031DBAF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6BF506741DC0ACB40031DBAF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6BF506771DC0ACEC0031DBAF /* BillingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BillingProgressView.h; sourceTree = "<group>"; };
+		6BF506781DC0ACEC0031DBAF /* BillingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BillingProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,14 +104,11 @@
 		6BF506351DC0A9490031DBAF /* YJProgressStatusSelect */ = {
 			isa = PBXGroup;
 			children = (
+				6BF506761DC0ACEC0031DBAF /* YJProgressStatusSelectView */,
 				6BF506391DC0A9490031DBAF /* AppDelegate.h */,
 				6BF5063A1DC0A9490031DBAF /* AppDelegate.m */,
-				6BF5063C1DC0A9490031DBAF /* RootViewController.h */,
-				6BF5063D1DC0A9490031DBAF /* RootViewController.m */,
-				6BF5063F1DC0A9490031DBAF /* DataViewController.h */,
-				6BF506401DC0A9490031DBAF /* DataViewController.m */,
-				6BF506421DC0A9490031DBAF /* ModelController.h */,
-				6BF506431DC0A9490031DBAF /* ModelController.m */,
+				6BF506731DC0ACB40031DBAF /* MainViewController.h */,
+				6BF506741DC0ACB40031DBAF /* MainViewController.m */,
 				6BF506451DC0A9490031DBAF /* Main.storyboard */,
 				6BF506481DC0A9490031DBAF /* Assets.xcassets */,
 				6BF5064A1DC0A9490031DBAF /* LaunchScreen.storyboard */,
@@ -148,6 +142,15 @@
 				6BF506631DC0A94A0031DBAF /* Info.plist */,
 			);
 			path = YJProgressStatusSelectUITests;
+			sourceTree = "<group>";
+		};
+		6BF506761DC0ACEC0031DBAF /* YJProgressStatusSelectView */ = {
+			isa = PBXGroup;
+			children = (
+				6BF506771DC0ACEC0031DBAF /* BillingProgressView.h */,
+				6BF506781DC0ACEC0031DBAF /* BillingProgressView.m */,
+			);
+			path = YJProgressStatusSelectView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,11 +286,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF506411DC0A9490031DBAF /* DataViewController.m in Sources */,
 				6BF5063B1DC0A9490031DBAF /* AppDelegate.m in Sources */,
-				6BF506441DC0A9490031DBAF /* ModelController.m in Sources */,
+				6BF506791DC0ACEC0031DBAF /* BillingProgressView.m in Sources */,
 				6BF506381DC0A9490031DBAF /* main.m in Sources */,
-				6BF5063E1DC0A9490031DBAF /* RootViewController.m in Sources */,
+				6BF506751DC0ACB40031DBAF /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
